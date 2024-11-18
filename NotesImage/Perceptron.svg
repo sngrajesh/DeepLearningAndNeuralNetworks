@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  
+  <!-- Inputs -->
+  <text x="50" y="100" font-family="Arial, sans-serif" font-size="16">Inputs</text>
+  <circle cx="100" cy="150" r="20" fill="#4CAF50" stroke="#000"/>
+  <text x="80" y="155" font-family="Arial, sans-serif">x1</text>
+  
+  <circle cx="100" cy="220" r="20" fill="#4CAF50" stroke="#000"/>
+  <text x="80" y="225" font-family="Arial, sans-serif">x2</text>
+  
+  <circle cx="100" cy="290" r="20" fill="#4CAF50" stroke="#000"/>
+  <text x="80" y="295" font-family="Arial, sans-serif">x3</text>
+  
+  <!-- Weights -->
+  <text x="200" y="100" font-family="Arial, sans-serif" font-size="16">Weights</text>
+  <text x="180" y="155" font-family="Arial, sans-serif">w1</text>
+  <text x="180" y="225" font-family="Arial, sans-serif">w2</text>
+  <text x="180" y="295" font-family="Arial, sans-serif">w3</text>
+  
+  <!-- Connections and Multiplication -->
+  <line x1="120" y1="150" x2="250" y2="180" stroke="#000" stroke-dasharray="5,5"/>
+  <text x="150" y="160" font-family="Arial, sans-serif">×</text>
+  
+  <line x1="120" y1="220" x2="250" y2="200" stroke="#000" stroke-dasharray="5,5"/>
+  <text x="150" y="230" font-family="Arial, sans-serif">×</text>
+  
+  <line x1="120" y1="290" x2="250" y2="220" stroke="#000" stroke-dasharray="5,5"/>
+  <text x="150" y="300" font-family="Arial, sans-serif">×</text>
+  
+  <!-- Summation -->
+  <circle cx="300" cy="200" r="30" fill="#2196F3" stroke="#000"/>
+  <text x="290" y="205" font-family="Arial, sans-serif">Σ</text>
+  
+  <!-- Bias -->
+  <circle cx="250" cy="130" r="15" fill="#FF9800" stroke="#000"/>
+  <text x="245" y="135" font-family="Arial, sans-serif" font-size="12">b</text>
+  <line x1="250" y1="145" x2="300" y2="180" stroke="#000" stroke-dasharray="5,5"/>
+  
+  <!-- Activation Function -->
+  <rect x="400" y="170" width="100" height="60" rx="10" ry="10" fill="#9C27B0" stroke="#000"/>
+  <text x="425" y="205" font-family="Arial, sans-serif" fill="#fff">sign()</text>
+  
+  <!-- Output -->
+  <circle cx="550" cy="200" r="20" fill="#FF5722" stroke="#000"/>
+  <text x="540" y="205" font-family="Arial, sans-serif" fill="#fff">y</text>
+  
+  <!-- Arrows -->
+  <line x1="330" y1="200" x2="390" y2="200" stroke="#000" marker-end="url(#arrowhead)"/>
+  <line x1="410" y1="200" x2="530" y2="200" stroke="#000" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrowhead Marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#000"/>
+    </marker>
+  </defs>
+</svg>
