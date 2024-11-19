@@ -1,1 +1,8 @@
 .vs
+
+
+/input/cifar-10-batches-py
+/input/cityscapes_data
+/input/fashion_mnist
+/input/housing
+ 
