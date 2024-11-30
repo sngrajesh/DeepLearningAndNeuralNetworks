@@ -1,6 +1,6 @@
 # 150720 kgl dscn
 .vs
-
+*.weights.h5
 /models
 /output/checkpoints 
 /input/cifar-10-batches-py
