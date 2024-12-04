@@ -7,3 +7,12 @@
 /input/cityscapes_data
 /input/fashion_mnist
 /input/housing
+/.conda
+.conda
+
+*.keras
+
+
+models/
+/models/flower_photos/*
+/models/flower_photos
